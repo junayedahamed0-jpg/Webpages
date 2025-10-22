@@ -1,0 +1,49 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/couple-park.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+
+.hero-text{
+  max-width: 800px;
+  padding: 60px;
+  
+}
+.hero-text h1{
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.hero-text p{
+  font-size: 1.2rem;  
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.hero-text .btn{
+  background: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background 0.3s ease;
+}
+.hero-text .btn:hover{
+  background: #0056b3;
+}   
+.arrow{
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  vertical-align: middle;
+}

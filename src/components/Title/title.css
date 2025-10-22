@@ -1,0 +1,12 @@
+.title-container{
+  text-align: center;
+  margin: 20px 0;
+}
+.title-container h1{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.title-container p{
+  font-size: 1.2rem;
+  color: #555;
+} 

@@ -1,0 +1,29 @@
+.programs {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -30px;
+  margin-left: 300px;
+  margin-right: 300px;
+  gap: 20px;
+} 
+.program img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+  .program-text {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .program-description {
+    font-size: 0.45rem;
+    color: #666;
+  }
+  .about 
